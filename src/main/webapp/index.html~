@@ -1,0 +1,9 @@
+<html>
+<head>
+Simple
+</head>
+<body>
+Enter your name<input type="text" name="name"><br>
+<input type="submit" value="login">
+</body>
+</html>
