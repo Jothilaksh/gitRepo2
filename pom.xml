@@ -34,6 +34,36 @@
           </webResources>
         </configuration>
        </plugin>
+      <plugin>
+         <groupId>org.jboss.as.plugins</groupId>
+         <artifactId>jboss-as-maven-plugin</artifactId>
+         <version>7.9.Final</version>
+	 <configuration>
+		<hostname>192.168.11.88</hostname>
+	        <port>9999</port>
+                <username>Jothi</username>
+                <password>Jothi@123</password>
+		<domain>
+		  <server-groups>
+			<server-group>main-server-group</server-group>
+		  </server-groups>
+		  <profiles>
+			<profile>full</profile>
+		  </profiles>
+		</domain>
+                <jbossHome>/root/jboss-eap-6.4</jbossHome>
+                <fileName>/root/var/lib/go-agent/pipelines/Sample/target/Trailpro-1.0.war</fileName>
+          </configuration>
+	  <executions>
+              <execution>
+		              <id>deploy</id>
+                  <phase>package</phase>
+                  <goals>
+                     <goal>deploy</goal>
+                  </goals>
+               </execution>
+          </executions>
+        </plugin>
     </plugins>
   </build>
 </project>
