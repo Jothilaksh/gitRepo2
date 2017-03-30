@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0">    
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Trail.project</groupId>
+  <artifactId>Trailpro</artifactId>
+  <packaging>war</packaging>
+  <version>1.0</version>
+ <!-- <build>
+    <plugins>
+        <plugin>
+            <groupId>com.github.github</groupId>
+            <artifactId>site-maven-plugin</artifactId>
+            <version>0.11</version>
+            <configuration>
+                <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> 
+                <branch>refs/heads/master</branch>           
+                <includes><include>**/*</include></includes>
+                <repositoryName>gitRepo</repositoryName>     
+                <repositoryOwner>ssh://root@192.168.11.88/</repositoryOwner>    
+            </configuration>
+  </build>
+ -->
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.0.0</version>
+        <configuration>
+          <webResources>
+              <resource>
+                 <directory>src/main/java</directory>
+              </resource>
+          </webResources>
+        </configuration>
+       </plugin>
+    </plugins>
+  </build>
+</project>
+  
