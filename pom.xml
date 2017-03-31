@@ -80,6 +80,8 @@
                                                                         <port>9999</port>
                                                                         <username>Jothi</username>
                                                                         <password>Jothi@123</password>
+									<jbossHome>/root/jboss-eap-6.4</jbossHome>
+               							        <fileName>/var/lib/go-agent/pipelines/Sample1/target/Trailpro-1.0.war</fileName>
                                                                 </configuration>
                                                         </execution>
 		 		</executions>
