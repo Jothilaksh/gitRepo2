@@ -45,14 +45,14 @@
                 <password>Jothi@123</password>
 		<domain>
 		  <server-groups>
-			<server-group>main-server-group</server-group>
+			<server-group>ServerGrp-1</server-group>
 		  </server-groups>
 		  <profiles>
-			<profile>full</profile>
+			<profile>full-ha</profile>
 		  </profiles>
 		</domain>
                 <jbossHome>/root/jboss-eap-6.4</jbossHome>
-                <fileName>/root/var/lib/go-agent/pipelines/Sample/target/Trailpro-1.0.war</fileName>
+                <fileName>/root/var/lib/go-agent/pipelines/Sample2/target/Trailpro-1.0.war</fileName>
           </configuration>
 	  <executions>
               <execution>
