@@ -17,7 +17,7 @@
                 <password>Jothi@123</password>
 		<domain>
 		  <server-groups>
-			<server-group>ServerGrp1</server-group>
+			<server-group>ServerGrp-1</server-group>
 		  </server-groups>
 		  <profiles>
 			<profile>full-ha</profile>
