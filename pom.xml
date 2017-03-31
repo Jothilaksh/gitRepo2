@@ -5,7 +5,7 @@
   <artifactId>Trailpro</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
- <!-- <build> -----
+ <!-- <build> 
     <plugins>
         <plugin>
             <groupId>com.github.github</groupId>
