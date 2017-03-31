@@ -63,7 +63,7 @@
                   </goals>
                </execution>
 	  </executions>
-	      <configuration>
+	   <!--   <configuration>
 		<hostname>192.168.11.88</hostname>
 	        <port>9999</port>
                 <username>Jothi</username>
@@ -88,7 +88,7 @@
                   </goals>
                </execution>
           </executions>
-	
+	-->
         </plugin>
     </plugins>
   </build>
