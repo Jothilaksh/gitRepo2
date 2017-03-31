@@ -24,7 +24,7 @@
 		  </profiles>
 		</domain>
                 <jbossHome>/root/jboss-eap-6.4</jbossHome>
-                <fileName>/root/var/lib/go-agent/pipelines/Sample/target/Trailpro-1.0.war</fileName>
+                <fileName>/root/var/lib/go-agent/pipelines/Sample/second/target/Trailpro-1.0.war</fileName>
           </configuration>
 	  <executions>
               <execution>
