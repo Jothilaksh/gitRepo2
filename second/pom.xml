@@ -3,7 +3,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Trail.project</groupId>
   <artifactId>Trailpro</artifactId>
-  <packaging>war</packaging>
   <version>1.0</version>
   <build>
     <plugins>
