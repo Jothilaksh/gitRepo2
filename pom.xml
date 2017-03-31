@@ -61,7 +61,7 @@
                                                                         <ignoreMissingDeployment>true</ignoreMissingDeployment>
                                                                 </configuration>
                                                         </execution>
-                                                      <!--  <execution>
+                                                       <execution>
                                                                 <id>deploy</id>
                                                                 <phase>package</phase>
                                                                 <goals>
@@ -82,7 +82,6 @@
                                                                         <password>Jothi@123</password>
                                                                 </configuration>
                                                         </execution>
--->
 		 		</executions>
 
         </plugin>
