@@ -59,7 +59,7 @@
 		  <id>deploy</id>
                   <phase>package</phase>
                   <goals>
-                     <goal>deploy</goal>
+                     <goal>redeploy</goal>
                   </goals>
                </execution>
           </executions>
