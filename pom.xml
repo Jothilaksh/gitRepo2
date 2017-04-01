@@ -5,7 +5,7 @@
   <artifactId>Trailpro</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
- <!-- <build> 
+ <!-- <build>
     <plugins>
         <plugin>
             <groupId>com.github.github</groupId>
@@ -38,37 +38,14 @@
          <groupId>org.jboss.as.plugins</groupId>
          <artifactId>jboss-as-maven-plugin</artifactId>
          <version>7.9.Final</version>
-	 <!-- <executions>
-           <execution>
-               <id>undeploy</id>
-               <phase>clean</phase>
-               <goals>
-                  <goal>undeploy</goal>
-               </goals>
-               <configuration>
-               <domain>
-                  <server-groups>
-                       <server-group>other-server-group</server-group>
-                  </server-groups>
-                  <profiles>
-                        <profile>full-ha</profile>
-                  </profiles>
-               </domain>
-               <hostname>192.168.11.88</hostname>
-               <port>9999</port>
-               <username>Jothi</username>
-               <password>Jothi@123</password>
-     	       </configuration>
-             </execution>
--->
-         <configuration>
+	 <configuration>
 		<hostname>192.168.11.88</hostname>
 	        <port>9999</port>
                 <username>Jothi</username>
                 <password>Jothi@123</password>
 		<domain>
 		  <server-groups>
-			<server-group>ServerGrp-1</server-group>
+			<server-group>other-server-group</server-group>
 		  </server-groups>
 		  <profiles>
 			<profile>full-ha</profile>
@@ -85,9 +62,8 @@
                      <goal>deploy</goal>
                   </goals>
                </execution>
-	 </executions>
+          </executions>
         </plugin>
     </plugins>
   </build>
 </project>
-  
