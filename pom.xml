@@ -60,7 +60,12 @@
                      <goal>undeploy</goal>
                   </goals>
                </execution>
-          </executions>
+	      </executions>
+     </plugin>
+     <plugin>
+         <groupId>org.jboss.as.plugins</groupId>
+         <artifactId>jboss-as-maven-plugin</artifactId>
+         <version>7.9.Final</version>
 	  <configuration>
 		<hostname>192.168.11.88</hostname>
 	        <port>9999</port>
