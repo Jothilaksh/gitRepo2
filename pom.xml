@@ -61,8 +61,8 @@
                   </goals>
                </execution>
 	      </executions>
-     </plugin>
 -->
+     </plugin>
      <plugin>
          <groupId>org.jboss.as.plugins</groupId>
          <artifactId>jboss-as-maven-plugin</artifactId>
