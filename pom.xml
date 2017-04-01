@@ -51,12 +51,10 @@
 			<profile>full-ha</profile>
 		  </profiles>
 		</domain>
-                <jbossHome>/root/jboss-eap-6.4</jbossHome>
-                <fileName>/root/var/lib/go-agent/pipelines/Sample1/target/Trailpro-1.0.war</fileName>
           </configuration>
 	  <executions>
               <execution>
-		  <id>deploy</id>
+		  <id>undeploy</id>
                   <phase>clean</phase>
                   <goals>
                      <goal>undeploy</goal>
