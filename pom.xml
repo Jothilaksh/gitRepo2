@@ -38,7 +38,7 @@
          <groupId>org.jboss.as.plugins</groupId>
          <artifactId>jboss-as-maven-plugin</artifactId>
          <version>7.9.Final</version>
-	 <executions>
+	<!-- <executions>
             <execution>
                <id>undeploy</id>
                <phase>clean</phase>
@@ -60,9 +60,10 @@
                <password>Jothi@123</password>
      	       </configuration>
              </execution>
+-->
              <execution>
                   <id>deploy</id>
-                  <phase>install</phase>
+                  <phase>package</phase>
                   <goals>
                      <goal>deploy</goal>
                   </goals>
